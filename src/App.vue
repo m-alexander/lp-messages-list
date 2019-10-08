@@ -4,7 +4,13 @@
   </div>
 </template>
 <style lang="stylus">
-  @import('./main.css');
+  *, *:after, *:before {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
 
   #app {
     font-family: 'TT Norms', 'Avenir', Helvetica, Arial, sans-serif;

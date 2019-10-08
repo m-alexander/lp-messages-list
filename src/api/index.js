@@ -7,7 +7,7 @@ class Api {
       parts: [
         {
           id: 1,
-          author: 'vasya',
+          author: 'vasiliy',
           text: 'Привет, как дела?',
           created: '2019-08-01 23:59',
         },
