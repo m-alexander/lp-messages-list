@@ -4,6 +4,8 @@
   </div>
 </template>
 <style lang="stylus">
+  @import 'assets/fonts.css';
+
   *, *:after, *:before {
     box-sizing: border-box;
   }
