@@ -12,14 +12,14 @@ describe('Routing', () => {
   });
 
   it('Opens second dialog by permalink', () => {
-    cy.visit('/2');
+    cy.visit('/#/2');
     cy.contains('.messages__conversation', 'Помогите мне настроить домен!');
   });
 });
 
 describe('Send form', () => {
   beforeEach(() => {
-    cy.visit('/1');
+    cy.visit('/#/1');
     cy.get('.input-box__input').type('test');
   });
 
